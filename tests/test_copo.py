@@ -1,4 +1,4 @@
-from classes import copo
+# from classes import copo
 from classes.copo import Copo
 
 
