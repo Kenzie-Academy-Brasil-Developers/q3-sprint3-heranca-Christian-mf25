@@ -1,4 +1,4 @@
-from recipiente import Recipiente
+from .recipiente import Recipiente
 
 class Copo(Recipiente):
 	def __init__(self, tamanho: float, conteudo: float = 0, limpo: bool = True, bebida = None) -> None:

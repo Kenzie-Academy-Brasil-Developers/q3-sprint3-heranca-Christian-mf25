@@ -3,8 +3,8 @@ class Recipiente:
 	def __init__(self, tamanho: float, conteudo: float = 0, limpo: bool = True) -> None:
 		if tamanho < 0:
 			tamanho = 0
-		self.tamanho = tamanho
-		self.conteudo = conteudo
+		self.tamanho = float(tamanho)
+		self.conteudo = float(conteudo)
 		self.limpo = limpo
 	
 	def esvaziar(self) -> None:
